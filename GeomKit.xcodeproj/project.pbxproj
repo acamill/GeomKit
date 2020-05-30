@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E1BEBE024820F1D00653844 /* NumberSugar in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1BEBDF24820F1D00653844 /* NumberSugar */; };
+		8E1BEBE224820F2200653844 /* NumberSugar in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1BEBE124820F2200653844 /* NumberSugar */; };
 		F1354EBC23A92306002BBF3C /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CALayer+Extension.swift */; };
 		F1354EBD23A92306002BBF3C /* CAShapeUtil+TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CAShapeUtil+TypeAlias.swift */; };
 		F1354EBE23A92306002BBF3C /* CAShapeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CAShapeUtil.swift */; };
@@ -40,7 +42,6 @@
 		F1354EDA23A92306002BBF3C /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Line.swift */; };
 		F1354EDB23A92306002BBF3C /* LineAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* LineAsserter.swift */; };
 		F1354EDC23A92306002BBF3C /* LineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* LineParser.swift */; };
-		F1354EDE23A92320002BBF3C /* NumberSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F1354EDD23A92320002BBF3C /* NumberSugar */; };
 		F1F5FC1423A8FADE000F461A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC1323A8FADE000F461A /* AppDelegate.swift */; };
 		F1F5FC1D23A8FAE3000F461A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F5FC1C23A8FAE3000F461A /* Assets.xcassets */; };
 		F1F5FC2023A8FAE3000F461A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F5FC1E23A8FAE3000F461A /* LaunchScreen.storyboard */; };
@@ -78,7 +79,6 @@
 		F1F5FC5423A91763000F461A /* CircleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CircleParser.swift */; };
 		F1F5FC5523A91763000F461A /* LineAsserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* LineAsserter.swift */; };
 		F1F5FC5623A91763000F461A /* LineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* LineParser.swift */; };
-		F1F5FC5923A917AA000F461A /* NumberSugar in Frameworks */ = {isa = PBXBuildFile; productRef = F1F5FC5823A917AA000F461A /* NumberSugar */; };
 		F1F5FC6223A92010000F461A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5FC6123A92010000F461A /* AppDelegate.swift */; };
 		F1F5FC6423A92016000F461A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F5FC6323A92016000F461A /* Assets.xcassets */; };
 		F1F5FC6723A92016000F461A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F5FC6523A92016000F461A /* MainMenu.xib */; };
@@ -151,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1F5FC5923A917AA000F461A /* NumberSugar in Frameworks */,
+				8E1BEBE024820F1D00653844 /* NumberSugar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1354EDE23A92320002BBF3C /* NumberSugar in Frameworks */,
+				8E1BEBE224820F2200653844 /* NumberSugar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +439,7 @@
 			);
 			name = GeomKit;
 			packageProductDependencies = (
-				F1F5FC5823A917AA000F461A /* NumberSugar */,
+				8E1BEBDF24820F1D00653844 /* NumberSugar */,
 			);
 			productName = GeomKit;
 			productReference = F1F5FC1123A8FADE000F461A /* GeomKit.app */;
@@ -477,7 +477,7 @@
 			);
 			name = GeomKitMacOS;
 			packageProductDependencies = (
-				F1354EDD23A92320002BBF3C /* NumberSugar */,
+				8E1BEBE124820F2200653844 /* NumberSugar */,
 			);
 			productName = GeomKitMacOS;
 			productReference = F1F5FC5F23A92010000F461A /* GeomKitMacOS.app */;
@@ -515,7 +515,7 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				F1A1697E23900D33006EACC4 /* XCRemoteSwiftPackageReference "NumberSugar" */,
+				8E1BEBDE24820F1D00653844 /* XCRemoteSwiftPackageReference "NumberSugar" */,
 			);
 			productRefGroup = OBJ_84 /* Products */;
 			projectDirPath = "";
@@ -1226,9 +1226,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F1A1697E23900D33006EACC4 /* XCRemoteSwiftPackageReference "NumberSugar" */ = {
+		8E1BEBDE24820F1D00653844 /* XCRemoteSwiftPackageReference "NumberSugar" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/eonist/NumberSugar.git";
+			repositoryURL = "git@github.com:eonist/NumberSugar.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1237,14 +1237,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F1354EDD23A92320002BBF3C /* NumberSugar */ = {
+		8E1BEBDF24820F1D00653844 /* NumberSugar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F1A1697E23900D33006EACC4 /* XCRemoteSwiftPackageReference "NumberSugar" */;
+			package = 8E1BEBDE24820F1D00653844 /* XCRemoteSwiftPackageReference "NumberSugar" */;
 			productName = NumberSugar;
 		};
-		F1F5FC5823A917AA000F461A /* NumberSugar */ = {
+		8E1BEBE124820F2200653844 /* NumberSugar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F1A1697E23900D33006EACC4 /* XCRemoteSwiftPackageReference "NumberSugar" */;
+			package = 8E1BEBDE24820F1D00653844 /* XCRemoteSwiftPackageReference "NumberSugar" */;
 			productName = NumberSugar;
 		};
 /* End XCSwiftPackageProductDependency section */
